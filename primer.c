@@ -7,7 +7,7 @@ int isPrime(const int i, int* prevPrimes)
 {
 	int ctr, primer = 0;
 	
-	for (ctr = prevPrimes[primer]; ctr*ctr < i; ctr = prevPrimes[++primer])
+	for (ctr = prevPrimes[primer]; ctr*ctr <= i; ctr = prevPrimes[++primer])
 		{
 		if (0 == i%ctr) return 0;
 		}
