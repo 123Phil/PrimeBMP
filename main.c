@@ -6,9 +6,8 @@
 //  This will write out to a file, "Prime.bmp" - can be changed @ line 63
 
 
-//including .c's cuz blah
-#include "writeBMP.c"
-#include "primer.c"
+#include "writeBMP.h"
+#include "primer.h"
 
 #define HEIGHT 960
 #define WIDTH 32

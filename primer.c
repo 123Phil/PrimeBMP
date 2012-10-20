@@ -1,6 +1,6 @@
 // I really like writing prime number functions
 // here are two of my favorite that work together
-
+#include "primer.h"
 
 
 int isPrime(const int i, int* prevPrimes)

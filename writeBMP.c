@@ -11,13 +11,9 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdio.h>
+#include "writeBMP.h"
 
-//define pixelformat of windows bitmap, notice the unusual ordering of colors
-typedef struct {
-    unsigned char B;
-    unsigned char G;
-    unsigned char R;
-} pixel;
+
 
 //supply an array of pixels[height][width] <- notice that height comes first
 int writeBMP(const char* filename, unsigned int width, unsigned int height, pixel pixels[][32]) {
