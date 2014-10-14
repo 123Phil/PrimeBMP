@@ -10,4 +10,4 @@ The purpose of this project was to print a visual representation of prime number
 Mostly because I was curious if any sort of pattern existed,
 partially just because I thought it would be cool to see.
 
-I made it versatile, so other 
+The height can be changed as desired, I think it is currently set for an old iPhone background.
